@@ -62,6 +62,11 @@ I was able to review 11 out of the 58 questions
 
 ## Recreate Conceptual and Logical Diagram in Lucid Charts 
 
+* **Napkin Diagram** 
+
+![Napkin Design](../Napkin-design.jpeg)
+
+
 * **Lucid Chart Conceptual Diagram** 
 
 ![Conceptual Diagram](../Conceptual.png)
