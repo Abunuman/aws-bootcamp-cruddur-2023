@@ -8,26 +8,26 @@
 * I was able to install AWS CLI using gitpod and hence could run aws commands from my terminal.
 Running:
 
-`$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
+`$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` \
 
- `$ unzip awscliv2.zip`
- `$ sudo ./aws/install`
+ `$ unzip awscliv2.zip` \
+ `$ sudo ./aws/install` \
 
 
 * Using environment variables, I was able to pass in my AWS credentials.
 
-` $ export AWS_ACCESS_KEY_ID="********"`
-` $ export AWS_SECRET_ACCESS_KEY="*************"`
-` $ export AWS_DEFAULT_REGION="******"`
+` $ export AWS_ACCESS_KEY_ID="********"` \
+` $ export AWS_SECRET_ACCESS_KEY="*************"` \
+` $ export AWS_DEFAULT_REGION="******"` \
 
 I also tried using aws configure just for a trial
 
 `$ aws configure`
 Then the following prompts came up while  I fill up the prompts accordingly
 
-*AWS Access Key ID [None ]: ***************
-*AWS Secrete Access Key [None ]: *********************
-*Default region name [None ]: my region*
+*AWS Access Key ID [None ]: *************** \
+*AWS Secrete Access Key [None ]: ********************* \
+*Default region name [None ]: my region* \
 *Default output format [None ]: json*
 
 
@@ -56,10 +56,10 @@ aws sns subscribe \
     --notification-endpoint=my mail
 
 where:
- *region was set to my region*
- *my-topic was set as "billing alarm"*
- *I passed in my Account ID* 
- *My mail was set as my gmail account (toyyibxtra@gmail.com)*
+ *region was set to my region* \
+ *my-topic was set as "billing alarm"* \
+ *I passed in my Account ID* \
+ *My mail was set as my gmail account (toyyibxtra@gmail.com)* \
 
 
 - [X] Task 4:
