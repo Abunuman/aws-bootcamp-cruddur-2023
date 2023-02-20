@@ -71,12 +71,12 @@ I was able to review 11 out of the 58 questions
 
 ![Conceptual Diagram](../Conceptual.png)
 
+Here is the[Link](https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4311/edit?viewport_loc=62%2C-234%2C1624%2C894%2C1RVxaKq~3Jpw&invitationId=inv_5ec5e4ef-0616-4fe1-afa2-dc3acb6cbf62
+).
 
-Link: https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4311/edit?viewport_loc=62%2C-234%2C1624%2C894%2C1RVxaKq~3Jpw&invitationId=inv_5ec5e4ef-0616-4fe1-afa2-dc3acb6cbf62
 
 * **Lucid Chart Logic Diagram**
 
 ![Logical Diagram](../Logical.png)
 
-
-Link: https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4311/edit?viewport_loc=-353%2C305%2C2006%2C894%2CNRVxYiDKEcDh&invitationId=inv_5ec5e4ef-0616-4fe1-afa2-dc3acb6cbf62
+Here is the [Link to design](https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4311/edit?viewport_loc=-353%2C305%2C2006%2C894%2CNRVxYiDKEcDh&invitationId=inv_5ec5e4ef-0616-4fe1-afa2-dc3acb6cbf62).
