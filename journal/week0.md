@@ -23,11 +23,11 @@ export AWS_DEFAULT_REGION="******"
 
 **Proof for MFA set for Root**
 
-![MFA](../MFA-Proof.png)
+![MFA](../images/MFA-Proof.png)
 
 **Proof for Roles set**
 
-![Roles](../Roles-set.png)
+![Roles](../images/Roles-set.png)
 
 
 - [X] Task 3: 
@@ -53,9 +53,9 @@ aws sns subscribe \
 
 I was able to review 11 out of the 58 questions
 
-![Cruddur-workload](../Cruddrur-Workload.png)
+![Cruddur-workload](../images/Cruddrur-Workload.png)
 
-![Well Architected tool](../Well-Architected.png)
+![Well Architected tool](../images/Well-Architected.png)
 
 
 - [X] Task 5:
@@ -64,12 +64,12 @@ I was able to review 11 out of the 58 questions
 
 * **Napkin Diagram** 
 
-![Napkin Design](../Napkin-design.jpeg)
+![Napkin Design](../images/Napkin-design.jpeg)
 
 
 * **Lucid Chart Conceptual Diagram** 
 
-![Conceptual Diagram](../Conceptual.png)
+![Conceptual Diagram](../images/Conceptual.png)
 
 Here is the[Link](https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4311/edit?viewport_loc=62%2C-234%2C1624%2C894%2C1RVxaKq~3Jpw&invitationId=inv_5ec5e4ef-0616-4fe1-afa2-dc3acb6cbf62
 ).
@@ -77,6 +77,6 @@ Here is the[Link](https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4
 
 * **Lucid Chart Logic Diagram**
 
-![Logical Diagram](../Logical.png)
+![Logical Diagram](../images/Logical.png)
 
 Here is the [Link to design](https://lucid.app/lucidchart/62933b96-2259-4c95-8604-0fe547fe4311/edit?viewport_loc=-353%2C305%2C2006%2C894%2CNRVxYiDKEcDh&invitationId=inv_5ec5e4ef-0616-4fe1-afa2-dc3acb6cbf62).
