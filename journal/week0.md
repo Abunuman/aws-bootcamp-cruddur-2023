@@ -64,7 +64,7 @@ I was able to review 11 out of the 58 questions
 
 * **Napkin Diagram** 
 
-![Napkin Design](../images/Napkin-design.jpeg)
+![Napkin-design](../images/Napkin.png)
 
 
 * **Lucid Chart Conceptual Diagram** 
