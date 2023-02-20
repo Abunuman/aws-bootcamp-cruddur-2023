@@ -8,7 +8,7 @@
 * I was able to install AWS CLI using gitpod and hence could run aws commands from my terminal.
 Running:
 
-`$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` \
+`$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` 
 
  `$ unzip awscliv2.zip` \
  `$ sudo ./aws/install` 
