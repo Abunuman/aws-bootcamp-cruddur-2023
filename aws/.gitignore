@@ -1,0 +1,13 @@
+dist/
+awscli/
+botocore/
+customizations/
+data/
+examples/
+topics/
+cryptography/
+.dist*/
+*.cpython*
+*.zip
+*.so*
+
