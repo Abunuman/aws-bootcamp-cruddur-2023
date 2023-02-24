@@ -2,7 +2,8 @@ nav {
   flex-shrink: 1;
   width: 280px;
   padding-top: 16px;
-  padding-right: 24px;
+  padding-right: 34px;
+  margin-left: 10px;
 }
 nav .logo {
   width: 48px;
