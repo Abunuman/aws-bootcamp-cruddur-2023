@@ -25,7 +25,9 @@ I thereafter wrote a Dockerfile for each app ensuring the apps run via individua
 
 ### Creating docker-compose.yml file
 
-I created a docker-compose file with the guide and understood the writing yml file better than before. I ensured  multiple containers can run side by side and mounted directories so I can make changes while I code.
+I created a docker-compose file with the guide and understood writing yml file better than before. 
+
+I ensured  multiple containers can run side by side and mounted directories so I can make changes while I code.
 
 ![dockercompose](../images/docker-compose.png)
 
@@ -37,27 +39,36 @@ I created a docker-compose file with the guide and understood the writing yml fi
 
 ### SOLUTION:
 
-I knew it was a problem with the frontend, CSS to be specific, so I went to the `#DesktopNavigation.css ` and gave it a margin-left of 10px and got a well displayed Homepage
+I figured out the problem was with the frontend-react-js codebase, CSS to be specific.
+ Having figured that out, I went to the `#DesktopNavigation.css ` and gave it a margin-left of 10px which gave a well displayed Homepage.
+
 
 2. **The Timeline was not displaying**
+
 
  From the image refrenced above, it is obvious the timeline was missing. 
  
  ### SOLUTION:
 
- I inspected the containers and found out the backend was not healthy, I inspected the error and found out there was an issue with its build, therefore, I did `docker-compose down` and ran `docker-compose up` again and I have this: 
+ I inspected the containers and found out the backend was not healthy.
+ 
+ I inspected the error and found out there was an issue with its build.
+
+ Therefore, I did `docker-compose down` and ran `docker-compose up` again and had this: 
 
  ![Good Display](../images/Better-displayed.png)
 
 3. **The NotificationFeed**
 
-I found out this 404 error when the notification is clicked 
+I found out this 404 error when the notification was clicked on.
 
 ![Notification error](../images/Notification-error.png)
 
 ### SOLUTION:
-Following through the guide from the tutor, I was able to get the notification working perfectly
+Following through the guide from the tutor, I was able to get the notification working perfectly.
+
 SOLUTION:
+
 ![Notification-correction](../images/Notification-correction.png)
 
 
@@ -72,7 +83,7 @@ I followed the tutor's guide in implementing these.
 
 ---
 ## Homework Challenges 
----
+
  - [X] Task 1:
 
 ### Running the dockerfile CMD as an external script
@@ -124,18 +135,20 @@ Having gotten the error, I passed the command to install curl into their respect
 
 **My Repository name: nerdrx/cruddur**
 
-During this final exercise I was able to do, I tagged the *frontend-react-js-image:latest* to *nerdrx/cruddur:latest*
-After successfully tagging the image, I then pushed to my dockerhub repository
+During this final exercise I was able to do, I tagged the *frontend-react-js-image:latest* to *nerdrx/cruddur:latest*.
+
+After successfully tagging the image, I then pushed to my dockerhub repository.
 
 I initially had a recurring error of image not found locally while trying push. 
-After several attempts I found out that I mispelt **cruddur** as **cuddur** while tagging hence it couldn't find a match while pushing
+After several attempts I found out that I mispelt **cruddur** as **cuddur** while tagging hence it couldn't find a match while pushing.
 
 The following steps were followed:
 
 1. Tagging:
 ![Tagging](../images/docker-tag.png)
 
-2. Dockerhub account login from the CLI
+2. Dockerhub account login from the CLI.
+
 I already had an account "nerdrx"
 
 ![Alt text](../images/dockerhub-login.png)
