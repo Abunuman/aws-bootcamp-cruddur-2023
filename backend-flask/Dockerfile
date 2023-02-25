@@ -22,8 +22,11 @@ ENV FLASK_ENV=development
 
 EXPOSE ${PORT}
 
+RUN apt-get update && apt-get install -y curl
+
 COPY ./external.sh /
 
 RUN chmod +x /external.sh
 
 ENTRYPOINT ["/external.sh"]
+
