@@ -4,7 +4,7 @@
 
 ## Containerization of Apps using Docker following Checklist Guide
 
-### - [X] Task 1:
+- [X] Task 1:
 
 ### Running Apps Locally
 
@@ -12,7 +12,7 @@
 
 * Thereafter I ensured the apps can run locally before implementing the use of Dockerfile and docker-compose file
 
-### - [X] Task 2:
+- [X] Task 2:
 
 ### Writing Dockerfile
 I thereafter wrote a Dockerfile for each app ensuring the apps run via individual container.
@@ -21,7 +21,7 @@ I thereafter wrote a Dockerfile for each app ensuring the apps run via individua
 
 ![Dockerfile for Frontend](../images/FE-Dockerfile.png)
 
-### - [X] Task 3:
+ - [X] Task 3:
 
 ### Creating docker-compose.yml file
 
@@ -61,7 +61,7 @@ SOLUTION:
 ![Notification-correction](../images/Notification-correction.png)
 
 
-### - [X] Task 4:
+ - [X] Task 4:
 
 ### Adding DynamoDB Local and Postgres
 After solving these errors, I proceeded to adding databases (Dynamodb and PostgresSQL)to the docker-compose file. 
@@ -73,7 +73,7 @@ I followed the tutor's guide in implementing these.
 ---
 ## Homework Challenges 
 ---
-### - [X] Task 1:
+ - [X] Task 1:
 
 ### Running the dockerfile CMD as an external script
 
@@ -90,7 +90,7 @@ Initially there were errors while trying to figure out the commands to link up t
 But when I figured out the right command, errors were eliminated.
 
 
-### - [X] Task 2:
+ - [X] Task 2:
 
 ### Implementation of  a healthcheck in the V3 Docker compose file
 
@@ -100,9 +100,11 @@ I implemented a healthcheck for both front-end-react-js and backend-flask in the
 
 ![Frontend healthcheck](../images/Healthcheck-frontend.png)
 
-The healthcheck for the four components in the docker-compose.yml file all returned green initially
+The healthcheck for the four components in the docker-compose.yml file all returned green initially.
+
 
 ![Alt text](../images/Healthcheck.png)
+
 
 But after 60 seconds as stated in the healthcheck it returned an error, that shows two containers are unhealthy.
 
@@ -113,7 +115,10 @@ Having gotten the error, I passed the command to install curl into their respect
 
 ![Frontend healthcheck correction](../images/Healthcheck-correction-fe.png)
 
-### - [X] Task 2:
+
+
+
+- [X] Task 3:
 
 ### Tagging and Pushing Image to Dockerhub Repositories
 
