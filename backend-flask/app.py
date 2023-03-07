@@ -65,7 +65,7 @@ from flask import got_request_exception
 # logging.basicConfig(format="%(request)s - %(message)s")
 # logging.setLogRecordFactory(record_factory)
 # log = logging.getLogger()
-log.warning('this is a warning')
+# log.warning('this is a warning')
 
 # Honeycomb ......
 # Initialize tracing and an exporter that can send data to Honeycomb
