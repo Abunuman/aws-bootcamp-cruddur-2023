@@ -46,6 +46,40 @@ from flask import got_request_exception
 # LOGGER.addHandler(cw_handler)
 # #LOGGER.info("test log")
 
+# Pyrollbar works by inspecting the `request` for a `rollbar_person`,
+# `user` or `user_id` field (in that order). The first one it finds
+# it uses as the person data assuming the object contains at least
+# the `id` field.
+
+# For a request with only a `user_id` field, the person is sent as
+# follows: `{ id: request.user_id }`.
+
+# Many/Most frameworks handle this all automatically. 
+# If you are not using a web framework, keep in mind that 
+# the `rollbar_person` param needs to be a property of the request object,
+# not a dictionary element. See example below:
+
+# ROll Bar Person Tracking
+import logging
+
+class SimpleRequestWithPerson(object):
+    def __init__(self, person_dict):
+        self.rollbar_person = person_dict
+    def __str__(self):
+        return str(self.rollbar_person)
+
+old_factory = logging.getLogRecordFactory()
+
+def record_factory(*args, **kwargs):
+    record = old_factory(*args, **kwargs)
+    record.request = SimpleRequestWithPerson({'id': '002', 'username': 'Abunuman', 'email': 'toyyibxtra@gmail.com'})
+    return record
+
+logging.basicConfig(format="%(request)s - %(message)s")
+logging.setLogRecordFactory(record_factory)
+log = logging.getLogger()
+log.warning('this is a warning')
+
 # Honeycomb ......
 # Initialize tracing and an exporter that can send data to Honeycomb
 provider = TracerProvider()
